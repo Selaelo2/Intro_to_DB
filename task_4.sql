@@ -3,8 +3,7 @@ USE alx_book_store;
 
 -- Query the information schema for the books table details
 SELECT COLUMN_NAME,
-       DATA_TYPE,
-       CHARACTER_MAXIMUM_LENGTH AS max_length,
+       COLUMN_TYPE,              -- Shows the full data type (e.g., VARCHAR(130))
        IS_NULLABLE,
        COLUMN_DEFAULT,
        COLUMN_KEY
